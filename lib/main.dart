@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:new_flutter/sound_null_safety/student_home.dart';
 import '/branch_one/sound_null_safety.dart';
 
 void main() {
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // home: const MyHomePage(),
-      home: const SoundNullSafety(),
+      // home: const SoundNullSafety(),
+      home: const StudentHome(),
     );
   }
 }
